@@ -697,7 +697,7 @@ code {
   color: #999;
   text-align: center;
   font-size: 9pt;
-  font-family: Hiragino Sans GB, STHeiti, Microsoft YaHei, WenQuanYi Micro Hei, SimSun, sans-serif;
+  font-family: 'Noto Serif SC', serif;
 }
 .site_footer a {
   margin: 0 9pt;
@@ -768,7 +768,7 @@ pre code {
   display: block;
   padding: 0 0.5em;
   color: #000;
-  font: Courier New, Courier, Monospace;
+  font: 'Noto Serif SC', serif;
   font-size: 0.8em;
 }
 pre .line-number {
@@ -818,7 +818,7 @@ pre .cl {
   margin: 2em auto;
   font-weight: 100;
   color: #c2c6cc;
-  font-family: Microsoft Yahei, sans-serif;
+  font-family: 'Noto Serif SC', serif;
 }
 #eof:before {
   content: '——';
