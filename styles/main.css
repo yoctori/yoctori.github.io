@@ -633,7 +633,7 @@ code {
 .md_block pre {
   border-radius: 2px;
   font-size: inherit;
-  font-family: Consolas, Inconsolata, Courier, monospace;
+  font-family: 'Noto Serif SC', serif;
   line-height: inherit;
 }
 .md_block table {
