@@ -11,8 +11,7 @@ body {
   word-spacing: 0;
   letter-spacing: 0;
   font-size: 16px;
-  font-family: Helvetica, Tahoma, Arial, "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei";
-  font-family: Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei";
+  font-family: 'Noto Serif SC', serif;
   text-rendering: optimizeLegibility;
   line-height: 2.1;
   scroll-behavior: smooth;
@@ -888,6 +887,10 @@ pre .cl {
   right: 20px;
   width: 38px;
   height: 38px;
+}
+.note-serif-sc-font {
+  font-family: 'Noto Serif SC', serif;
+  font-display: swap;
 }
 .darkmode .darkmode-layer {
   position: fixed;
