@@ -19,17 +19,15 @@ body {
 a {
   text-decoration: none;
 }
-a:link,
-a:visited {
+a:link {
+  color: #ea8a8a;
   text-decoration: none;
   border-bottom: 1px dashed #ea8a8a;
-  /*下边框线，1象素，虚线，颜色ccc*/
-  color: #ea8a8a;
 }
+a:visited,
 a:active,
 a:hover {
   border-bottom: 1px solid #ea8a8a;
-  /*下边框线，1象素，实线，颜色c00*/
   color: #ea8a8a;
 }
 code {
