@@ -110,6 +110,7 @@ code {
   line-height: 1;
 }
 .header .logo_title .title a {
+  color: #685454;
   text-decoration: none;
 }
 .header .logo_title .title .navbar .normal_nav {
