@@ -897,33 +897,33 @@ pre .cl {
 }
 .blur {
   color: transparent;
-  text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+  text-shadow: 0px 0px 8px rgba(104, 84, 84, 0.5);
 }
 .blur:hover {
   color: transparent;
-  text-shadow: 0px 0px 0px #000000;
+  text-shadow: 0px 0px 0px #685454;
 }
 .sphl {
-  color: #000;
+  color: #685454;
   font-weight: bold;
-  box-shadow: 0px -7px 0px rgba(228, 43, 43, 0.3) inset;
+  box-shadow: 0px -7px 0px rgba(234, 138, 138, 0.3) inset;
   transition: all 0.3s ease;
 }
 .sphl:hover {
-  color: #000;
+  color: #685454;
   font-weight: bold;
-  box-shadow: 0px -20px 0px rgba(228, 43, 43, 0.3) inset;
+  box-shadow: 0px -20px 0px rgba(234, 138, 138, 0.3) inset;
 }
 .shady {
-  color: #000;
+  color: #685454;
   font-weight: bold;
-  box-shadow: 0px -20px 0px #000000 inset;
+  box-shadow: 0px -20px 0px #685454 inset;
   transition: all 0.3s ease;
 }
 .shady:hover {
   font-weight: bold;
-  color: #FFF;
-  box-shadow: 0px -20px 0px #000000 inset;
+  color: #f2f2f2;
+  box-shadow: 0px -20px 0px #685454 inset;
 }
 .darkmode .darkmode-layer {
   position: fixed;
