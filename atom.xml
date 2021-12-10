@@ -2,13 +2,59 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yoctori.github.io</id>
     <title>Sein</title>
-    <updated>2021-12-10T15:29:06.545Z</updated>
+    <updated>2021-12-10T19:05:26.337Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yoctori.github.io"/>
     <link rel="self" href="https://yoctori.github.io/atom.xml"/>
     <logo>https://yoctori.github.io/images/avatar.png</logo>
     <icon>https://yoctori.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Sein</rights>
+    <entry>
+        <title type="html"><![CDATA[周记 | 能折腾就多折腾折腾吧]]></title>
+        <id>https://yoctori.github.io/post/weekly-digest-211212/</id>
+        <link href="https://yoctori.github.io/post/weekly-digest-211212/">
+        </link>
+        <updated>2021-12-10T18:06:08.000Z</updated>
+        <summary type="html"><![CDATA[<p><span class="sphl">211206-211212</span><br>
+主要是唠一唠建博客的<s>心路历程</s>，以及之后的一些打算</p>
+]]></summary>
+        <content type="html"><![CDATA[<p><span class="sphl">211206-211212</span><br>
+主要是唠一唠建博客的<s>心路历程</s>，以及之后的一些打算</p>
+<!-- more -->
+<hr>
+<h2 id="开博纪念">开博纪念</h2>
+<h3 id="珍惜还能折腾的时光">珍惜还能折腾的时光</h3>
+<p>上一次写博客还是在初中，久违地体会到这种古早的感觉还蛮奇妙的哈哈哈。<br>
+总之最近一直有做个博客的想法，给自己一点空间去表达，也可以顺便做做总结什么的。<br>
+再加之在长毛象冲浪的时候好几次看到别的朋友发自己的博客链接，极度stimulate到我，<s>我这个折腾劲控制不住就上来了！</s><br>
+生命在于折腾，能折腾就多折腾折腾吧。<br>
+于是乎，辗转了notion、hexo、hugo，最终还是决定用gridea，主要是搭建很无脑，自带的写作器也很方便，脑力和时间能省则省嘛！<br>
+几步搭完之后，我稍微给新家装修了一下，改了字体、配色、二级标题样式、点击特效等等有的没的，目前来说是够用了，慢慢再看能怎么玩儿吧！</p>
+<p>以后大概会保持写周记，另外还想专门写一些技术方面的文章，<s>希望不鸽</s>。</p>
+<hr>
+<h2 id="一周总结">一周总结</h2>
+<h2 id="好物收集">好物收集</h2>
+<h3 id="顺来的图标网站">顺来的图标网站</h3>
+<ul>
+<li><a href="https://icons8.com/">icon8</a></li>
+</ul>
+<p>没错，这是本人建博客途中顺道搜到的图标网站（<s>很快啊这就推荐上来了</s><br>
+图标很多就不用说了，里面可以根据图表样式来搜索，比如描边的、仿emoji的、渐变的。更方便的是可以在线修改图标的配色，完全是本懒人的救星。</p>
+<hr>
+<h3 id="看过的都说好the-expressions-cheat-sheet-for-adobe-after-effects">看过的都说好：The Expressions Cheat Sheet for Adobe After-Effects</h3>
+<ul>
+<li><a href="https://www.goodboy.ninja/expressionscheatsheet">Expressions Cheat Sheet</a></li>
+</ul>
+<p>非常友好的一个ae表达式学习站点，几乎包含了所有常用的表达式，并且有操作步骤、名词解释和非常直观的示例。</p>
+<hr>
+<h3 id="那就顺便学一下吧网道">那就顺便学一下吧：网道</h3>
+<ul>
+<li><a href="https://wangdoc.com/">网道</a></li>
+</ul>
+<p>本来是为了学表达式找到了这个网站的JavaScript教程，很详细很直观。<br>
+<s>既然要折腾博客了那顺便也看看别的（不要啊</s></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://yoctori.github.io/post/hello-gridea/</id>
