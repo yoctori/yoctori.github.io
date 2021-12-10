@@ -807,7 +807,7 @@ pre .cl {
   border-bottom-width: medium;
   outline: 0;
   color: #685454;
-  border-bottom: 2px #beb1b1;
+  border-bottom: 2px #ebd5d5;
   transition: border-color 0.2s;
 }
 .search-input:hover {
