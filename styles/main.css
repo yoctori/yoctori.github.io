@@ -802,7 +802,7 @@ pre .cl {
   background-size: 20px;
   border: 0;
   border-radius: 15px;
-  border-bottom-color: #ebd5d5;
+  border-bottom-color: currentcolor;
   border-bottom-style: none;
   border-bottom-width: medium;
   outline: 0;
@@ -812,6 +812,7 @@ pre .cl {
 }
 .search-input:hover {
   width: 180px;
+  color: #f2f2f2;
 }
 #eof {
   text-align: center;
