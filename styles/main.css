@@ -21,16 +21,16 @@ a {
 }
 a:link,
 a:visited {
-  border-bottom: 1px #ddd;
-  color: #888;
-  opacity: 1;
-  transition: all 0.15s linear;
-  -ms-transition: all 0.15s linear;
+  text-decoration: none;
+  border-bottom: 1px dashed #ccc;
+  /*下边框线，1象素，虚线，颜色ccc*/
+  color: #c00;
 }
 a:active,
 a:hover {
-  color: #e42b2b;
-  text-decoration: none !important;
+  border-bottom: 1px solid #c00;
+  /*下边框线，1象素，实线，颜色c00*/
+  color: #666;
 }
 code {
   word-wrap: break-word;
@@ -891,6 +891,36 @@ pre .cl {
 .note-serif-sc-font {
   font-family: 'Noto Serif SC', serif;
   font-display: swap;
+}
+.blur {
+  color: transparent;
+  text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+}
+.blur:hover {
+  color: transparent;
+  text-shadow: 0px 0px 0px #000000;
+}
+.sphl {
+  color: #000;
+  font-weight: bold;
+  box-shadow: 0px -7px 0px rgba(228, 43, 43, 0.3) inset;
+  transition: all 0.3s ease;
+}
+.sphl:hover {
+  color: #000;
+  font-weight: bold;
+  box-shadow: 0px -20px 0px rgba(228, 43, 43, 0.3) inset;
+}
+.shady {
+  color: #000;
+  font-weight: bold;
+  box-shadow: 0px -20px 0px #000000 inset;
+  transition: all 0.3s ease;
+}
+.shady:hover {
+  font-weight: bold;
+  color: #FFF;
+  box-shadow: 0px -20px 0px #000000 inset;
 }
 .darkmode .darkmode-layer {
   position: fixed;
