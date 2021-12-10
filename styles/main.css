@@ -600,7 +600,7 @@ code {
 .md_block hr {
   margin: 1.5rem 0;
   height: 1px;
-  border-top: 1px dashed #a5a5a5;
+  border-top: 1px solid #ebd5d5;
   border-right: 0;
   border-bottom: 0;
   border-left: 0;
@@ -1028,7 +1028,7 @@ pre .cl {
   padding-left: 16px;
 }
 .toc-container li a {
-  color: #868e96;
+  color: #ea8a8a;
   padding: 4px;
   display: block;
   transition: all 0.3s;
@@ -1042,7 +1042,7 @@ pre .cl {
 }
 .currentToc {
   background-color: white !important;
-  color: red !important;
+  color: #ea8a8a !important;
   border-radius: 5px;
 }
 code[class*=language-],
