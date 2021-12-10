@@ -555,7 +555,7 @@ code {
 .md_block h2::before {
   content: "#";
   margin-right: 5px;
-  color: #2d96bd;
+  color: #685454;
 }
 .md_block h3 {
   margin: 15px -25px;
