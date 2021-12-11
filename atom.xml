@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yoctori.github.io</id>
     <title>Sein</title>
-    <updated>2021-12-11T18:16:58.593Z</updated>
+    <updated>2021-12-11T18:17:34.709Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yoctori.github.io"/>
     <link rel="self" href="https://yoctori.github.io/atom.xml"/>
@@ -66,16 +66,16 @@
 <hr>
 <h3 id="本周结算">本周结算</h3>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1050756"><label class="task-list-item-label" for="task-item-1050756"> 小组report完成修改</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7537160"><label class="task-list-item-label" for="task-item-7537160"> 个人report进度50%</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-725013"><label class="task-list-item-label" for="task-item-725013"> C4D基础补缺</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6263945"><label class="task-list-item-label" for="task-item-6263945"> 小组report完成修改</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6569836"><label class="task-list-item-label" for="task-item-6569836"> 个人report进度50%</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-5161190"><label class="task-list-item-label" for="task-item-5161190"> C4D基础补缺</label></li>
 </ul>
 <hr>
 <h3 id="下周目标">下周目标</h3>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-5009587"><label class="task-list-item-label" for="task-item-5009587"> Duik学习</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-2836912"><label class="task-list-item-label" for="task-item-2836912"> 完成个人report</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-5395880"><label class="task-list-item-label" for="task-item-5395880"> 期末复习开个头</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-319594"><label class="task-list-item-label" for="task-item-319594"> Duik学习</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-7230712"><label class="task-list-item-label" for="task-item-7230712"> 完成个人report</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-4398065"><label class="task-list-item-label" for="task-item-4398065"> 期末复习开个头</label></li>
 </ul>
 <hr>
 <h2 id="推歌时间">推歌时间</h2>
