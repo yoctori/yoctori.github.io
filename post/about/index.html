@@ -5,8 +5,8 @@
 <link href="https://yoctori.github.io/styles/main.css" type="text/css" rel="stylesheet" /><link href="https://at.alicdn.com/t/font_1621793_zatzzgvf30g.css" type="text/css" rel="stylesheet" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.css"><script async src="https://cdn.jsdelivr.net/npm/busuanzi@2.3.0/bsz.pure.mini.min.js"></script><script src="https://yoctori.github.io/media/js/magnify.min.js"></script><script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js"></script>
 <script type="text/javascript">function btn_toggle(){document.getElementById("hn").classList.contains("no-js")?document.getElementById("hn").classList.remove("no-js"):document.getElementById("hn").classList.add("no-js")}</script>
 
-<script src="./media/js/Valine.min.js"></script>
 
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
 <link rel="canonical" href="https://yoctori.github.io/post/about/" />
 <link rel="stylesheet"
          href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=swap" media="print"
@@ -64,11 +64,17 @@
 </div>
 <div id="fullPage"><canvas id="canvas"></canvas></div>
 </article>
-<div id="eof"><span>EOF</span></div><div class="round-shape-one"></div>
-<section>
-<div class="doc_comments">
+<div id="eof"><span>End</span></div><div class="round-shape-one"></div>
 
-</div></section>
+<div id="vcomments"></div>
+    <script>
+        new Valine({
+            el: '#vcomments',
+            appId: 'iCyd6oWTyXDhsGEk7IBUuzMK-gzGzoHsz',
+            appKey: 'VYuYxYzcvg6He4Y8vVqnn5ym'
+        })
+    </script>
+
 </div></div></div><script>
 "use strict";!function(){for(var n=document.getElementsByTagName("pre"),e=n.length,s=0;s<e;s++){n[s].innerHTML='<span class="line-number"></span>'+n[s].innerHTML+'<span class="cl"></span>';for(var a=n[s].innerHTML.split(/\n/).length,r=0;r<a-1;r++){n[s].getElementsByTagName("span")[0].innerHTML+="<span>"+(r+1)+"</span>"}}}();
 let mainNavLinks=document.querySelectorAll(".markdownIt-TOC a");window.addEventListener("scroll",event=>{let fromTop=window.scrollY;mainNavLinks.forEach((link,index)=>{let section=document.getElementById(decodeURI(link.hash).substring(1));let nextSection=null
@@ -77,6 +83,7 @@ if(section.offsetTop<=fromTop){if(nextSection){if(nextSection.offsetTop>fromTop)
 var h=document.documentElement,b=document.body,st="scrollTop",sh="scrollHeight",progress=document.querySelector(".progress"),scroll;document.addEventListener("scroll",function(){scroll=(h[st]||b[st])/((h[sh]||b[sh])-h.clientHeight)*100;progress.style.setProperty("--scroll",scroll+"%")});
 var wxScale=new WxScale({fullPage:document.querySelector("#fullPage"),canvas:document.querySelector("#canvas")});var imgBox=document.querySelectorAll("#md_block img");for(var i=0;i<imgBox.length;i++){imgBox[i].onclick=function(e){wxScale.start(this)}};
 </script>
+
 <a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647; display: block;"></a><div class="footer animated fadeInDown"><div class="site_footer"><div class="mysocials"><div class="my_socials"></div></div><div class="copyright"id="copyright">Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>Copyright © 2018-2020 <a href="https://yoctori.github.io" style="margin:0;">Sein</a>.</div>
 <span style="display: inline;margin-right:15px;">👁<strong><span id="busuanzi_value_site_uv"></span></strong></span><span id="busuanzi_container_page_pv" style="display: inline;"><span>📚<strong>4</strong> posts</span></div></div>
 <script>
@@ -86,25 +93,7 @@ console.log("\n %c \u26a1Theme: Bitcron-pro Author's Blog:https://blog.blinkstar
 <canvas class="fireworks" style="position:fixed;left:0;top:0;z-index:99999999;pointer-events:none;"></canvas>
 <script type="text/javascript" src="./media/js/fireworks.js"></script>
 <script type="text/javascript" src="./media/js/hexo_resize_image.js"></script>
-
 <script type="text/javascript" async src="https://yoctori.github.io/media/js/prism.js"></script>
 <script type="text/javascript" async src="https://yoctori.github.io/media/js/fireworks.js"></script>
-
-<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-    <script src="./media/js/Valine.min.js"></script>
-<div class="comment"></div>
-<script>
-    new Valine({
-        av: AV, 
-        el: '.comment',
-	      lang: 'zh-cn',//设置评论语言
-        emoticon_url: 'https://cloud.panjunwen.com/alu',
-  emoticon_list: ["狂汗.png","不说话.png","汗.png","坐等.png","献花.png","不高兴.png","中刀.png","害羞.png","皱眉.png","小眼睛.png","暗地观察.png"],
-  app_id: 'iCyd6oWTyXDhsGEk7IBUuzMK-gzGzoHsz',
-  app_key: 'VYuYxYzcvg6He4Y8vVqnn5ym',
-  placeholder: '评论留言'
-    });
-</script>    
-
 </body>
 </html>
