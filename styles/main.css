@@ -935,6 +935,7 @@ pre .cl {
   font-family: 'Noto Serif SC', serif;
   padding-left: 10px;
   padding-right: 10px;
+  border-radius: 0;
 }
 #vcomments .vheader .vmail {
   border-left: 3px solid #ea8a8a;
@@ -942,6 +943,7 @@ pre .cl {
   font-family: 'Noto Serif SC', serif;
   padding-left: 10px;
   padding-right: 10px;
+  border-radius: 0;
 }
 #vcomments .vheader .vlink {
   border-left: 3px solid #ea8a8a;
@@ -949,6 +951,7 @@ pre .cl {
   font-family: 'Noto Serif SC', serif;
   padding-left: 10px;
   padding-right: 10px;
+  border-radius: 0;
 }
 #vcomments .vwrap {
   padding: 20px 25px 15px 25px;
@@ -996,6 +999,11 @@ pre .cl {
 }
 #vcomments .vwrap .vemojis {
   background-color: rgba(235, 213, 213, 0.3);
+  padding-right: -10px;
+  padding-left: 10px;
+}
+#vcomments .vrow {
+  padding: 10px 0;
 }
 .darkmode .darkmode-layer {
   position: fixed;
