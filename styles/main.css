@@ -1012,6 +1012,13 @@ pre .cl {
 #vcomments .vrow .vcol .vctrl {
   font-size: 15px;
 }
+#vcomments .vempty {
+  color: #c2c6cc;
+  font-family: 'Noto Serif SC', serif;
+}
+#vcomments .vpower {
+  display: none;
+}
 .darkmode .darkmode-layer {
   position: fixed;
   pointer-events: none;
