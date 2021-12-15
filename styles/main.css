@@ -925,6 +925,75 @@ pre .cl {
   color: #f2f2f2;
   box-shadow: 0px -20px 0px #685454 inset;
 }
+#vcomments .vinput {
+  color: #685454;
+  font-family: 'Noto Serif SC', serif;
+}
+#vcomments .vheader .vnick {
+  border-left: 3px solid #ea8a8a;
+  font-size: 0.8em;
+  font-family: 'Noto Serif SC', serif;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#vcomments .vheader .vmail {
+  border-left: 3px solid #ea8a8a;
+  font-size: 0.8em;
+  font-family: 'Noto Serif SC', serif;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#vcomments .vheader .vlink {
+  border-left: 3px solid #ea8a8a;
+  font-size: 0.8em;
+  font-family: 'Noto Serif SC', serif;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#vcomments .vwrap {
+  padding: 20px 25px 15px 25px;
+  border: 1px solid #ebd5d5 !important;
+  border-radius: 5px !important;
+  margin-bottom: 15px;
+  overflow: hidden;
+  position: relative;
+}
+#vcomments .vcards .vcard {
+  padding: 15px 25px 0 25px;
+  border: 1px solid #ebd5d5 !important;
+  border-radius: 5px !important;
+  margin-bottom: 15px;
+  transition: all 0.3s;
+}
+#vcomments .vcards .vcard:hover {
+  box-shadow: 0 0 8px 3px rgba(234, 138, 138, 0.12);
+}
+#vcomments .vcards .vcard .vh .vcard {
+  border: none;
+  box-shadow: none;
+}
+#vcomments .vcards .vcard .vhead .vnick {
+  font-color: #685454;
+  font-family: 'Noto Serif SC', serif;
+}
+#vcomments .vcards .vcard .vh .vmeta .vat {
+  color: #ea8a8a;
+  font-family: 'Noto Serif SC', serif;
+}
+#vcomments .vicon {
+  fill: #685454;
+}
+#vcomments .vbtn {
+  border: 1px solid #ea8a8a !important;
+  border-radius: 5px !important;
+  color: #ea8a8a;
+  font-family: 'Noto Serif SC', serif;
+  font-size: 0.9em;
+  padding: 0.5em 1.1em;
+}
+#vcomments .vwrap .vemojis {
+  background-color: rgba(235, 213, 213, 0.3);
+}
 .darkmode .darkmode-layer {
   position: fixed;
   pointer-events: none;
