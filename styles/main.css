@@ -932,7 +932,7 @@ div#comments.comments.v {
   margin-right: 0px !important;
 }
 div.vheader.item2 {
-  border-bottom: 1px solid #5f5f5f;
+  border-bottom: 1px solid #685454;
   height: 35px !important;
 }
 .v .vwrap .vheader.item2 .vinput {
@@ -951,6 +951,8 @@ div.vcontrol {
 }
 div#comments.comments.v {
   border: 0px;
+  font-family: 'Noto Serif SC', serif;
+  font-size: inherit;
 }
 .v .vwrap {
   border: 1px solid #ebd5d5 !important;
@@ -961,7 +963,8 @@ div#comments.comments.v {
 }
 .v .vwrap .vedit .vemojis {
   width: 600px !important;
-  border-radius: 5px !important;
+  border: 1px solid #ebd5d5 !important;
+  border-radius: 4px !important;
 }
 .v .vwrap .vedit .vpreview {
   width: 600px !important;
