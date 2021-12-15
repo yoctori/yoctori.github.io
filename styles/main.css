@@ -1009,6 +1009,9 @@ pre .cl {
   resize: none;
   min-height: 8em;
 }
+#vcomments .vrow .vcol .vctrl {
+  font-size: 15px;
+}
 .darkmode .darkmode-layer {
   position: fixed;
   pointer-events: none;
