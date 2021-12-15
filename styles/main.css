@@ -958,6 +958,9 @@ pre .cl {
   overflow: hidden;
   position: relative;
 }
+#vcomments .vwrap:hover {
+  box-shadow: 0 0 8px 3px rgba(234, 138, 138, 0.12);
+}
 #vcomments .vcards .vcard {
   padding: 15px 25px 0 25px;
   border: 1px solid #ebd5d5 !important;
