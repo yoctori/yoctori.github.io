@@ -1003,7 +1003,11 @@ pre .cl {
   padding-left: 10px;
 }
 #vcomments .vrow {
-  padding: 10px 0;
+  padding: 5px 0;
+}
+#vcomments .veditor {
+  resize: none;
+  min-height: 8em;
 }
 .darkmode .darkmode-layer {
   position: fixed;
