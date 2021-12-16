@@ -198,8 +198,8 @@ code {
   height: 100%;
   width: 100%;
   display: inline-block;
-  border-radius: 5px;
   padding-top: 32px;
+  padding-bottom: 0px;
 }
 .featureIndex {
   border: 0px;
