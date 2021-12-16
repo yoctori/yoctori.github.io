@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yoctori.github.io</id>
     <title>Sein</title>
-    <updated>2021-12-16T14:02:43.868Z</updated>
+    <updated>2021-12-16T14:05:51.038Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yoctori.github.io"/>
     <link rel="self" href="https://yoctori.github.io/atom.xml"/>
@@ -29,19 +29,19 @@
 <ul>
 <li>打开描边图形的3D开关后，直接旋转会这样：</li>
 </ul>
-<div  align="center"> 
-<img src="https://res.cloudinary.com/blog-pilotori-com/image/upload/v1639658581/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20211203124404_ssyl7g.png" />
-</div>
-<div id="container">
-<ul>
-<li><img data-original="https://res.cloudinary.com/blog-pilotori-com/image/upload/v1639658581/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20211203124404_ssyl7g.png" src="https://res.cloudinary.com/blog-pilotori-com/image/upload/v1639658581/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20211203124404_ssyl7g.png" alt="图片1"></li>
-</ul>
+<div>
+<img id="image" data-original="https://res.cloudinary.com/blog-pilotori-com/image/upload/v1639658581/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20211203124404_ssyl7g.png" src="https://res.cloudinary.com/blog-pilotori-com/image/upload/v1639658581/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20211203124404_ssyl7g.png"></li>
 </div>
 <ul>
 <li>改善方法：给形状图层添加<span class="sphl">图层样式-描边</span>，为了方便对比，先把这里的颜色改成白色。可以看到白色的描边是均匀的，不像红色描边会因为角度被压扁。</li>
 </ul>
 <div  align="center"> 
 <img src="https://res.cloudinary.com/blog-pilotori-com/image/upload/v1639658582/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20211203125319_q3h1bg.png" />
+</div>
+<div id="container">
+<ul>
+<li><img data-original="https://res.cloudinary.com/blog-pilotori-com/image/upload/v1639658582/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20211203125319_q3h1bg.png" src="https://res.cloudinary.com/blog-pilotori-com/image/upload/v1639658582/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20211203125319_q3h1bg.png"></li>
+</ul>
 </div>
 <ul>
 <li>接下来把原本的红色描边宽度改到很小的值，去掉扁平的描边；由图层样式描边的大小来控制宽度；最后把两个描边颜色统一就完成了。</li>
@@ -114,16 +114,16 @@
 <hr>
 <h3 id="本周结算">本周结算</h3>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7311143"><label class="task-list-item-label" for="task-item-7311143"> 小组report完成修改</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3882677"><label class="task-list-item-label" for="task-item-3882677"> 个人report进度50%</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-5577865"><label class="task-list-item-label" for="task-item-5577865"> C4D基础补缺</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-5028505"><label class="task-list-item-label" for="task-item-5028505"> 小组report完成修改</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3648537"><label class="task-list-item-label" for="task-item-3648537"> 个人report进度50%</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1398392"><label class="task-list-item-label" for="task-item-1398392"> C4D基础补缺</label></li>
 </ul>
 <hr>
 <h3 id="下周目标">下周目标</h3>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8236780"><label class="task-list-item-label" for="task-item-8236780"> Duik学习</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-6512458"><label class="task-list-item-label" for="task-item-6512458"> 完成个人report</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-4286491"><label class="task-list-item-label" for="task-item-4286491"> 期末复习开个头</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-2679018"><label class="task-list-item-label" for="task-item-2679018"> Duik学习</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-5286708"><label class="task-list-item-label" for="task-item-5286708"> 完成个人report</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-5375068"><label class="task-list-item-label" for="task-item-5375068"> 期末复习开个头</label></li>
 </ul>
 <hr>
 <h2 id="推歌时间">推歌时间</h2>
