@@ -1057,7 +1057,7 @@ pre .cl {
   text-decoration: none;
 }
 .post-preview--date {
-  font-size: 14px;
+  font-size: 12px;
   color: #999;
 }
 .post-preview--excerpt {
@@ -1084,7 +1084,7 @@ pre .cl {
     display: none;
   }
   .post-preview--middle {
-    line-height: 25px;
+    line-height: 23px;
   }
 }
 .rating {
