@@ -711,10 +711,11 @@ code {
 .site_footer a {
   margin: 0 9pt;
   color: #999;
+  border-bottom: 1px dashed #ea8a8a;
   font-size: 9pt;
 }
 .site_footer a:hover {
-  border-bottom: 1px dashed #ea8a8a;
+  border-bottom: 1px solid #ea8a8a;
   color: #ea8a8a;
 }
 div.progress {
@@ -1083,7 +1084,7 @@ pre .cl {
     display: none;
   }
   .post-preview--middle {
-    line-height: 22px;
+    line-height: 25px;
   }
 }
 .rating {
