@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <link rel="shortcut icon" href="https://yoctori.github.io/media/images/favicon.ico" type="image/x-icon" /><meta name="viewport"content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/><meta name="apple-mobile-web-app-capable"content="yes"/><meta name="apple-mobile-web-app-status-bar-style"content="black"/><meta name="format-detection"content="telephone=no"/><meta name="renderer"content="webkit"><meta name="description"content="一时兴起的博客"><meta charset="UTF-8"><title>关于 | Sein</title>
 <link href="https://yoctori.github.io/styles/main.css" type="text/css" rel="stylesheet" /><link href="https://at.alicdn.com/t/font_1621793_zatzzgvf30g.css" type="text/css" rel="stylesheet" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.css"><script async src="https://cdn.jsdelivr.net/npm/busuanzi@2.3.0/bsz.pure.mini.min.js"></script><script src="https://yoctori.github.io/media/js/magnify.min.js"></script><script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js"></script>
 <script type="text/javascript">function btn_toggle(){document.getElementById("hn").classList.contains("no-js")?document.getElementById("hn").classList.remove("no-js"):document.getElementById("hn").classList.add("no-js")}</script>
@@ -16,50 +15,7 @@
 <link rel="stylesheet"
          href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
 <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
-<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <meta name="referrer" content="never">
-<script type="text/javascript">
-jQuery(document).ready(function ($) {
-  $("a[href*='douban']").each(function () {
-    var _this = $(this);
-    var str = _this.attr("href");
-    var db_reg = /^https\:\/\/(movie|book)\.douban\.com\/subject\/([0-9]+)\/?/;
-    if (db_reg.test(str)) {
-      var db_type = str.replace(db_reg, "$1");
-      var db_id = str.replace(db_reg, "$2").toString();
-      var db_api = "https://bm.weajs.com/api/";
-      if (db_type == 'movie') {
-        var url = db_api + "movie/" + db_id + "/";
-        $.ajax({
-          url: url,
-          type: 'GET',
-          dataType: "json",
-          success: function (data) {
-            var db_star = Math.ceil(data.rating);
-            $("<div class='post-preview'><div class='post-preview--meta'><div class='post-preview--middle'><h4 class='post-preview--title'><a target='_blank' href='" + str + "'>《" + data.title + "》</a></h4><div class='rating'><div class='rating-star allstar" + db_star + "'></div><div class='rating-average'>" + data.rating + "</div></div><time class='post-preview--date'>导演：" + data.directors + " / 类型：" + data.genres + " / " + data.pubdate + "</time><section style='max-height:75px;overflow:hidden;' class='post-preview--excerpt'>" + data.intro + "</section></div></div><img class='post-preview--image' src=" + data.cover + "></div>").replaceAll(_this)
-          }
-        });
-      } else if (db_type == 'book') {
-        var url = db_api + "book/" + db_id;
-        $.ajax({
-          url: url,
-          type: 'GET',
-          dataType: 'json',
-          success: function (data) {
-            var db_star = Math.ceil(data.rating);
-            $("<div class='post-preview'><div class='post-preview--meta'><div class='post-preview--middle'><h4 class='post-preview--title'><a target='_blank' href='" + str + "'>《" + data.title + "》</a></h4><div class='rating'><div class='rating-star allstar" + db_star + "'></div><div class='rating-average'>" + data.rating + "</div></div><time class='post-preview--date'>作者：" + data.author + " </time><section style='max-height:75px;overflow:hidden;' class='post-preview--excerpt'>" + data.intro + "</section></div></div><img class='post-preview--image' src=" + data.cover + "></div>").replaceAll(_this)
-          }
-        });
-      } else {
-        console.log("出错" + id)
-      }
-    }
-  });
-});
-</script>
-
-
-
 
 </head>
 <body>
@@ -157,7 +113,6 @@ console.log("\n %c \u26a1Theme: Bitcron-pro Author's Blog:https://blog.blinkstar
 <script type="text/javascript" async src="https://yoctori.github.io/media/js/fireworks.js"></script>
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<meta name="referrer" content="never">
 <script type="text/javascript">
 jQuery(document).ready(function ($) {
   $("a[href*='douban']").each(function () {
